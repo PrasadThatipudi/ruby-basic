@@ -1,6 +1,5 @@
-i = 0
+puts "Are we there yet?"
 
-while i<10 do
-  puts "i is #{i}"
-  i += 1
+while gets.chomp != "yes" do
+  puts "Are we there yet?"
 end
